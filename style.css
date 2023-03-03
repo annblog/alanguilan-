@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background: #fff;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+.container{
+	position: relative;
+	max-width: 900px;
+	height: 1500px;
+	background: #fff;
+	width: 100%;
+	box-shadow: 0 0 10px 0 gray;
+}
+.container .header{
+	position: relative;
+	background: #556B2F;
+	padding: 15px;
+}
+.profile{
+	position: relative;
+	align-items: left;
+	display: flex;
+	padding-left: 10px;
+	height: 100%;
+}
+.profile .image{
+	position: relative;
+	width: 300px;
+	height: 200px;
+}
+.profile .image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-right: 20px;
+	border-right: 1px solid white;
+}
+.profile .text{
+	color: #fff;
+	margin-top: 20px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+.container .content1{
+	position: relative;
+	background: #fff;
+	margin-top: 0;
+	padding: 40px;
+}
+.prof{
+	position: relative;
+	max-width: 800px;
+	height: 30px;
+	color: #fff;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	background: #556B2F;
+	box-shadow: 0 0 10px 0 gray;
+}
+.paragraph{
+	position: relative;
+	height: 100%;
+	background: #fff;
+	padding-top: 10px;
+	width: 100%;
+}
+.paragraph p{
+	color: black;
+	padding-top: 20px;
+	font-style: italic;
+	text-align: justify;
+	font-size: 1.1em;
+	text-indent: 50px;
+	width: 95%;
+	height: 100%;
+}
+
+
+
+.content2{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+.acad{
+	position: relative;
+	max-width: 800px;
+	height: 30px;
+	color: #fff;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	background: #556B2F;
+	box-shadow: 0 0 0px 0 gray;
+}
+.graph{
+	position: relative;
+	max-width: 800px;
+	height: 100%;
+	background: #fff;
+
+}
+.graph h3{
+	color: black;
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 1.1em;
+	font-style: bold;
+	text-transform: uppercase;
+}
+.graph p{
+	color: black;
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+
+
+
+
+.content3{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+.skills{
+	position: relative;
+	max-width: 800px;
+	height: 30px;
+	color: #fff;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	background: #556B2F;
+}
+.content3 .aph{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	align-items: center;
+}
+.content3 .aph h3{
+	text-transform: uppercase;
+	padding-top: 15px;
+	line-height: 1.0em;
+	color: black;
+	font-weight: 500;
+}
+.content3 .aph .percent{
+	position: relative;
+	width: 95%;
+	height: 10px;
+	background: #f0f0f0;
+}
+.content3 .aph .percent .try{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: rgba(0, 128, 0, 0.6);
+}
+
+
+.content5{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+.reference{
+	position: relative;
+	max-width: 800px;
+	height: 30px;
+	color: #fff;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	background: #556B2F;
+}
+
+.ref{
+	position: relative;
+	max-width: 800px;
+	height: 100%;
+	background: #fff;
+
+}
+.ref h3{
+	color: black;
+	padding-top: 20px;
+	text-align: justify;
+	font-size: 1.1em;
+	font-style: bold;
+	text-transform: uppercase;
+}
+.ref p{
+	color: black;
+	text-align: justify;
+	font-size: 1.1em;
+}
